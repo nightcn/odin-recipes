@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.recipe-container {
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  background-color: aqua;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Ingridients start */
+
+.ingridients {
+  border-radius: 10px;
+  padding: 0.2rem 0.8rem 0.4rem 0.8rem;
+  width: max-content;
+  background-color: antiquewhite;
+  margin: 0 auto 1rem auto;
+}
+
+.ingridients ul {
+  margin-left: 2rem;
+}
+
+.ingridients li {
+  padding: 0.2rem 0;
+}
+
+.ingridients h2 {
+  text-align: center;
+  padding-bottom: 0.2rem;
+}
+
+/* Ingridients end */
+
+/* Description start */
+
+.description {
+  padding: 0.2rem 0.8rem 0.4rem 1rem;
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+  width: max-content;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.description h2 {
+  text-align: center;
+  padding-bottom: 0.2rem;
+}
+
+/* Description end */
+
+/* Steps start */
+
+.steps {
+  padding: 0.2rem 0.8rem 0.4rem 1rem;
+  width: max-content;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.steps h2 {
+  text-align: center;
+  padding-bottom: 0.2rem;
+}
+
+.steps ol {
+  margin-left: 1rem;
+}
+
+/* Steps end */
