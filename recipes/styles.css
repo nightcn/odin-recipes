@@ -7,7 +7,7 @@
 }
 
 .recipe-container {
-  width: 700px;
+  width: 900px;
   margin: 0 auto;
   padding-bottom: 1rem;
   /* background-color: aqua; */
@@ -78,6 +78,10 @@ img {
   padding-bottom: 0.2rem;
 }
 
+.description p {
+  line-height: 2;
+}
+
 /* Description end */
 
 /* Steps start */
@@ -86,6 +90,10 @@ img {
   padding: 0.2rem 0.8rem 0.4rem 1rem;
   width: max-content;
   border: 2px solid #fff;
+  border-top: none;
+  border-left: none;
+  border-right: 1px dotted #fff;
+  border-bottom: 3px solid #fff;
   border-radius: 10px;
   margin-left: 0.5rem;
   margin-bottom: 1rem;
@@ -98,6 +106,15 @@ img {
 
 .steps ol {
   margin-left: 1rem;
+}
+
+.steps p,
+.description p {
+  padding: 0.35rem;
+}
+
+.steps p {
+  border-bottom: 1.5px dotted #bde0fe;
 }
 
 /* Steps end */
