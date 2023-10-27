@@ -5,6 +5,11 @@
   font-family: Helvetica;
 }
 
+body {
+  margin: 0 auto;
+  max-width: 1370px;
+}
+
 header {
   align-items: center;
   display: flex;
